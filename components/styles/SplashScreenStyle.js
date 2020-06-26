@@ -1,0 +1,53 @@
+import { StyleSheet } from 'react-native'
+
+export default StyleSheet.create({
+    container:{
+        flex:1,
+        alignItems:'center'
+    },
+    imageView:{
+        flex:2,
+        justifyContent:'center',
+        backgroundColor:'white'
+    },
+    image:{
+    },
+    description:{
+        flex:1,
+        backgroundColor:'#d1112e',
+        borderTopRightRadius:20,
+        borderTopLeftRadius:20,
+        paddingTop:'10%',
+    },
+    textView:{
+        marginLeft:'10%'
+    },
+    primaryText:{
+        color:'white',
+        fontSize:25,
+    },
+    text:{
+        color:'white',
+    },
+    buttonView:{
+        flexWrap:'wrap',
+        width:'40%',
+        marginLeft:'45%',
+        marginTop:'15%',
+        alignItems:'center',
+    },
+    button:{
+        borderRadius:20,
+        backgroundColor:'#d1112e',
+        elevation:10,
+    },
+    buttonText:{
+        fontSize:18,
+        color:'white',
+        fontWeight:'bold',
+        marginLeft:10,
+    },
+    icon:{
+        color:'white',
+    }
+})

@@ -1,0 +1,61 @@
+import { StyleSheet } from 'react-native'
+
+export default StyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor:'#d1112e',
+    },
+    header:{
+        flex:1,
+    },
+    welcome:{
+        fontSize:25,
+        color:'white',
+        marginTop:'29%',
+        marginLeft:'10%'
+    },
+    email:{
+        fontSize:15,
+        marginLeft:'5%',
+        marginTop:'6%'
+    },
+    emailView:{
+        flexDirection:'row',
+        marginLeft:'5%',
+        marginTop:'2%',
+    },
+    TextInput:{
+        paddingLeft:10,
+        marginLeft:10,
+        flex:1,
+    },
+    icon1:{
+        fontSize:20,
+    },
+    icon2:{
+        fontSize:20,
+        opacity:0.5,
+        marginHorizontal:20,
+    },
+    footer:{
+        flex:3,
+        backgroundColor:'white',
+        borderTopLeftRadius:20,
+        borderTopRightRadius:20,
+        color:'green'
+
+    },
+    signGradient:{
+        width:'60%',
+        marginTop:20,
+        marginLeft:'20%',
+        alignItems:'center',
+        borderRadius:20,
+        paddingTop:5,
+        height:40,
+    },
+    signIn:{
+        color:'white',
+        fontSize:20
+    }
+})
