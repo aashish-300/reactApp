@@ -11,6 +11,8 @@ import AsyncStorage from '@react-native-community/async-storage'
 //This is my first time with git and github
 >>>>>>> d131ed32cdf5b9f1add389fcf25d7b52dc05f140
 
+//something still i am trying to change in next time
+
 import RootStackScreen from './components/RootStackScreen'
 import { AuthContext } from './components/Context'
 import Play from './components/Play'
