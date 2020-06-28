@@ -3,6 +3,8 @@ import { AppRegistry, Text, View, ActivityIndicator } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native'
 import AsyncStorage from '@react-native-community/async-storage'
 
+//This is the modification in local repository 
+//And this is also the first time
 
 import RootStackScreen from './components/RootStackScreen'
 import { AuthContext } from './components/Context'
